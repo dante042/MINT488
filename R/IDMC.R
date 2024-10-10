@@ -1,0 +1,19 @@
+#' IDMC Dataset
+#'
+#' This dataset contains displacement data from the IDMC project, including conflict and disaster-driven displacement data.
+#'
+#' @format A tibble with 10 columns:
+#' \describe{
+#'   \item{ID}{Unique identifier}
+#'   \item{ISO3}{Country ISO3 code}
+#'   \item{Country}{Name of the country}
+#'   \item{Geographical region}{Region of the country}
+#'   \item{Figure cause}{Cause of displacement (e.g., conflict, disaster)}
+#'   \item{Year}{Year of the event}
+#'   \item{Displacements}{Number of displacements}
+#'   \item{Hazard category}{Category of hazard (if applicable)}
+#'   \item{Event start date}{Start date of the event}
+#'   \item{Event end date}{End date of the event (if applicable)}
+#' }
+#' @source IDMC
+"IDMC"
